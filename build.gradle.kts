@@ -1,3 +1,5 @@
+import org.eazyportal.plugin.release.core.scm.model.ScmConfig.Companion.TRUNK_BASED_FLOW
+
 plugins {
     java
     `kotlin-dsl`
@@ -12,9 +14,5 @@ repositories {
 }
 
 release {
-    scm {
-        releaseBranch = "master"
-        featureBranch = "master"
-        remote = "origin"
-    }
+    scm = TRUNK_BASED_FLOW
 }
