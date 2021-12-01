@@ -1,4 +1,4 @@
-import org.eazyportal.plugin.release.core.scm.model.ScmConfig.Companion.TRUNK_BASED_FLOW
+import org.eazyportal.plugin.release.core.scm.model.ScmConfig.Companion.GIT_FLOW
 
 plugins {
     java
@@ -14,5 +14,5 @@ repositories {
 }
 
 release {
-    scm = TRUNK_BASED_FLOW
+    scm = GIT_FLOW
 }
