@@ -14,5 +14,5 @@ repositories {
 }
 
 release {
-    scm = GIT_FLOW
+    scmConfig = GIT_FLOW
 }
