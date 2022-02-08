@@ -2,9 +2,6 @@
 .gradle
 build/
 
-## Jenkins ##
-work/
-
 ### IntelliJ IDEA ###
 .idea
 *.iws
