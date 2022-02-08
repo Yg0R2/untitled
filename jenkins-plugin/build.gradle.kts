@@ -1,5 +1,5 @@
 plugins {
-    id("eazy-java-conventions") version("+")
+    id("eazy-java-conventions")
 
     id("org.jenkins-ci.jpi") version("+")
 }
