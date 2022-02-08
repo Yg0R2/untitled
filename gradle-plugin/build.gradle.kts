@@ -7,7 +7,7 @@ plugins {
 gradlePlugin {
     plugins {
         create("untitled-gradle-plugin") {
-            id = "$group"
+            id = "$group.$name"
             implementationClass = "org.yg0r2.UntitledPlugin"
         }
     }
