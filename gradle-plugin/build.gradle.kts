@@ -21,7 +21,3 @@ val instrumentedJar: Configuration by configurations.creating {
 artifacts {
     add("instrumentedJar", tasks.jar)
 }
-
-dependencies {
-//    implementation(kotlin("stdlib"))
-}
