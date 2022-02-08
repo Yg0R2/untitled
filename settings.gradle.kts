@@ -6,3 +6,6 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
+include("gradle-plugin")
+include("jenkins-plugin")
