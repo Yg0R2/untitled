@@ -2,8 +2,15 @@ rootProject.name = "untitled"
 
 pluginManagement {
     repositories {
-        mavenLocal()
         gradlePluginPortal()
+        maven {
+            val githubUrl: String by settings
+
+            name = "github"
+            url = uri("$githubUrl/*")
+            credentials(PasswordCredentials::class)
+        }
+        mavenLocal()
     }
 }
 
